@@ -42,3 +42,17 @@ elif idade < 60:
     print('Você é adulto.')
 else:
     print ("Você é um idoso.")
+
+#Desvio Condicional Aninhado
+
+#Existem outras formas de implementar desvios condicionais, como elif, nested if, etc.
+
+x = 10
+if x > 0:
+    print(" x é positivo")
+    if x % 2 == 0:
+        print(" x é par")
+    else:
+        print("x é ímpar")
+else:
+    print("x é negativo ou zero")
