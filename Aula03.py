@@ -14,16 +14,16 @@ while i < 10:
 numero_sorteado = 12
 palpite = 0
 
-'''while palpite != numero_sorteado:
+while palpite != numero_sorteado:
     palpite = int(input("Digite seu palpite (num inteiro    positivo) ou 0 (para encerar o jogo): "))
     if palpite == 0:
         print ("Encerando o jogo.")
         break
 else:   
-    print("Você acertou! O númeroo era ", numero_sorteado)'''
+    print("Você acertou! O númeroo era ", numero_sorteado)
 
 #Exemplo 3
-'''while True:
+while True:
     number = int(input("Digite um número inteiro positivo: "))
     if number < 0:
         print('Número inválido')
@@ -32,7 +32,7 @@ else:
     while number > 0:
         fat *= number
         number -= 1
-    print("Fatorial: ", fat)'''
+    print("Fatorial: ", fat)
 
 # Estrutura for
 '''
@@ -44,3 +44,5 @@ else:
 '''
 
 #Exemplo 1
+for i in range(1, 10, 2):
+    print(i)
